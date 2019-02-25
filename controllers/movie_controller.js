@@ -45,8 +45,7 @@ router.get("/rating", function(req, res) {
 router.post("/api/new/movie", function(req, res) {
   var movieName = req.body.name;
 
-  var queryUrl =
-    "http://www.omdbapi.com/?i=tt3896198&apikey=9613e41&t=" + movieName;
+  var queryUrl = "http://www.omdbapi.com/?apikey=9613e41&t=" + movieName;
 
   request(queryUrl, function(error, response, body) {
     if (!error && JSON.parse(body).Response !== "False") {
