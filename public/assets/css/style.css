@@ -14,33 +14,50 @@
 
 .header {
     background-color: rgb(26, 26, 26);
-    height: 60px;
+    height: 170px;
 }
 
 #logo {
-    height: 40px;
+    height: 150px;
     margin: 10px 0 0 45px;
+    width: 40%;
+}
+
+#welwords{
+    color: greenyellow;
+    font-size: 50px;
+    font-family: impact;
+    font-style: italic;
+    margin-top: 30px;
+    
 }
 
 
 /*add input and button*/
 
 #add-movie-input {
-    margin-top: 15px;
-    margin-right: 45px;
+    margin-top: -20px;
+    margin-left: 0px;
     border-radius: 0;
-    height: 30px;
-    width: 200px;
+    height: 50px;
+    width: 300px;
     float: right;
     background-color: rgb(237, 237, 237);
-    border: none;
+    border: rgb(236, 11, 11) 2px solid;
+    color: black;
 }
 
 #add-movie-button {
-    margin-top: 15px;
+    margin-top: -20px;
+    margin-right: -400px;
     border-radius: 0;
     float: right;
     height: 30px;
+    background-color: #f1f1f1;
+    color: black;
+    height: 50px;
+    width: 100px;
+    text-align: center;
 }
 
 #add-movie-image {
@@ -49,6 +66,9 @@
 
 #add-movie-button:hover {
     opacity: .5;
+    cursor: pointer;
+    background-color: black;
+    color: white;
 }
 
 
@@ -98,16 +118,17 @@
 }
 
 #footer_text {
-    float: right;
+    
     margin-right: 25px;
     margin-top: 18px;
     font-size: 12px;
     color: rgb(199, 198, 198);
     font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 
 #sort-box {
-    margin-top: 40px;
+    margin-top: 50px;
     margin-left: 50px;
 }
 
@@ -117,6 +138,7 @@
 
 #sortYear-img:hover {
     opacity: 0.5;
+    cursor: pointer;
 }
 
 #sortRating-box {
@@ -129,4 +151,7 @@
 
 #sortRating-img:hover {
     opacity: 0.5;
+    cursor: pointer;
 }
+
+
