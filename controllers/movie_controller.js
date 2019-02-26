@@ -69,11 +69,6 @@ router.post("/api/new/movie", function(req, res) {
 
       request(options, function(error, response, result) {
         if (error) res.redirect("/");
-
-        // if (error) {
-        //     alert("Seems to be a problem with your input. Please try again");
-        //     //res.redirect('/');
-        // } else {
         if (!JSON.parse(result).results) {
           // res.send('SOMETHING WENT WRONG');
           res.redirect("/");
