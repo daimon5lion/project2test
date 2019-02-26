@@ -70,7 +70,6 @@ router.post("/api/new/movie", function(req, res) {
       request(options, function(error, response, result) {
         if (error) res.redirect("/");
         if (!JSON.parse(result).results) {
-          // res.send('SOMETHING WENT WRONG');
           res.redirect("/");
         } else {
           videos = JSON.parse(result).results[0].key;
