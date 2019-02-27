@@ -13,14 +13,14 @@
 
 	</div>
 
-	<div class="row" id="sort-box">
+	
 		<div class="col-7" id="add-movie">
 			<form action='/api/new/movie' method=POST>
 				<input name="name" type="text" class="form-control" id="add-movie-input" placeholder="Add Movie Name">
 				<button id="add-movie-button"><img id="add-movie-image">GO!!!</button>
 			</form>
 		</div>
-	</div>
+	
 </header>
 <main>
 	<!-- ==============================================
@@ -29,13 +29,13 @@
 	<div class="row" id="sort-box">
 		<div id="sortYear-box">
 			<form action='/year' method=GET>
-				<button id="sortYear-button"><img id="sortYear-img" src="assets/images/sortYearBtn.jpg"></button>
+				<button id="sortYear-button"><img id="sortYear-img" src="assets/images/sortyear.jpg"></button>
 			</form>
 		</div>
 
 		<div id="sortRating-box">
 			<form action='/rating' method=GET>
-				<button id="sortRating-button"><img id="sortRating-img" src="assets/images/sortRatingBtn.jpg"></button>
+				<button id="sortRating-button"><img id="sortRating-img" src="assets/images/sortrating.jpg"></button>
 			</form>
 		</div>
 
@@ -128,7 +128,7 @@
 									<form action="/api/new/watched/{{this.id}}?_method=PUT" method="POST">
 										<input type="hidden" name="watched" value="true">
 										<button type="submit"><img id="watched-movie-button"
-												src="assets/images/watchedBtn.jpg"></button>
+												src="assets/images/watchlater.png"></button>
 									</form>
 								</div>
 								<!-- Remove movie button -->
@@ -137,7 +137,7 @@
 									<form action="/api/new/delete/{{this.id}}?_method=DELETE" method="POST">
 										<input type="hidden" name="watched" value="true">
 										<button type="submit"><img id="delete-movie-button"
-												src="assets/images/trashItBtn.jpg"></button>
+												src="assets/images/trash.png"></button>
 									</form>
 								</div>
 								<div class="col-md-6"></div>
@@ -180,7 +180,7 @@
 
 						<img class="img-responsive" id="watched-movies" src={{this.movie_poster}}>
 						<a href="/" class="overlay link" id="unwatch"><button type="submit" class="btn"
-								id="unwatch-btn">Unwatch it</button></a>
+								id="unwatch-btn">REMOVE</button></a>
 
 					</form>
 				</div>

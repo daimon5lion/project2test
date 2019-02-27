@@ -148,6 +148,7 @@ body {
 
 #watched-movie-button {
     height: 30px;
+    width: 50px;
 }
 
 #watched-movie-button:hover {
@@ -155,11 +156,16 @@ body {
 }
 
 #trailer-box {
-    margin-top: 20px;
+    margin-top: 50px;
     height: 300px;
     width: 500px;
 }
 
 #delete-movie-button {
     height: 30px;
+    width: 50px;
+}
+
+#delete-movie-button:hover{
+    opacity: 0.5;
 }
