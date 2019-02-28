@@ -1,0 +1,9 @@
+Movie Roll(working title) Outline
+Lei Chen, Alex Kramer, Cuong Pham, Kevin Pham
+
+This application focuses on tracking a list of movies that the user can edit to their liking.
+
+We go about solving this problem by utilizing themoviedb API which comes already loaded with a wide selection of movies.  The application will have a search function that the user can use to search out a movie.  The app will then access themoviedb's database to fetch the movie and add it to a database using MySQL.  This will allow the app to keep track of the user's list of movies which it then displays to the user in the front end in an array with an image of each movie.  Under each image is a remove button which will remove the movie from the database.
+
+To start the development of our app, we first searched online for relevent APIs which would help us solve our problem.  After familiarizing ourselves with the APIs, we then created a Github repository for the group and then implemented the APIs into our back end.  After ensuring that the APIs worked as intended, the back end team worked on implementing a database for storing the list of movies while our front end team worked on how the app displayed the movies.  In addition each movie comes with its own set of information.  This information will be accessed from the API and displayed to the user when the movie is selected. 
+From this step we decided to work on adding other features like a search filter as well as a log-in system.
