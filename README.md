@@ -5,7 +5,8 @@ Movie List is an application that can perform a search of a movie by name and, d
 ### Team Members
 Lei Chen, Alex Kramer, Cuong Pham, Kevin Pham
 
-### Technologies used: Javascript, Node.js, express npm package, path npm package, handlebars
+### Technologies used
+Javascript, Node.js, express npm package, path npm package, handlebars, heroku
 
 ## Getting Started
 
